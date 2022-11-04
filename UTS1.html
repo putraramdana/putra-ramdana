@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>UTS 1</title>
+   
+  </head>
+  
+  <body>
+
+    <header>
+      <div class="text-box">
+        <h1 id="title">WELLCOME TO FORM REQUEST!</h1><hr>
+          <p id="description"></p>
+      </div>
+    </header>
+        <div class="container">
+          <form id="survey-form" method="GET">   
+            <div class="labels">
+              <label>Select The Category</label></div>
+            <div class="input-tab">
+                <input type="radio" name="radio-button" value="VIP">VIP<br>
+                <input type="radio" name="radio-button" value="Premium">Premium<br>
+                <input type="radio" name="radio-button" value="Basic">Basic<br>
+            </div>
+  
+            <div class="labels">
+              <label>Select</label></div>
+            <div class="input-tab">
+              <input type="radio" name="radio-button1" value="Breakfast">Breakfast<br>
+              <input type="radio" name="radio-button1" value="Lunch">Lunch<br>
+              <input type="radio" name="radio-button1" value="Dinner">Dinner<br>
+            </div>        
+
+            <div class="labels">
+              <label id="tanggal-label" for="tanggal">* Date</label></div>
+            <div class="input-tab">
+              <input class="input-field" type="date" id="tanggal" name="tanggal" placeholder="Enter your Date" required autofocus></div>
+    
+            <div class="labels">
+              <label id="name-label" for="name">* Full Name</label></div>
+            <div class="input-tab">
+              <input class="input-field" type="text" id="name" name="name" placeholder="Enter your name" required autofocus></div>
+    
+             <div class="labels">
+              <label id="Phone-label" for="email">* Phone</label></div>
+            <div class="input-tab">
+              <input class="input-field" type="Phone" id="Phone" name="Phone" placeholder="62+" required></div>
+            
+            <div class="labels">
+              <label for="comments"></label></div>
+            <div class="input-tab">
+              <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+
+              <div class="labels">
+                <label id="email-label" for="email">* Send To Email</label></div>
+              <div class="input-tab">
+                <input class="input-field" type="email" id="email" name="email" placeholder="Ramdana86@gmail.com" required></div>
+              
+            
+            <div class="btn">
+              <button id="send" type="send">Send</button>
+              <button id="reset" type="reset" value="reset">Reset</button><br><br>
+              <button id="show" type="show" value="show" onclick="show(CredentialsContainer)">Show</button>
+            </div>
+          </form>
+        </div>
+    
+    <footer>
+      </div>
+          <p>&copy Muhammad Putra Ramdana 2022</a></p>
+    </footer>
+  </body>
+</html>
